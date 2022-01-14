@@ -1,19 +1,35 @@
 .first-container {
-    background-color: #e1ede2;
+    background-color: #eaf6f6;
     position: relative;
     padding-top: 100px;
     
 }
 a{
     color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
 }
 body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    background-color: #e1ede2;
+    color: #40514e;
+    
 }
-
+hr {
+            
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    margin: 70px auto 70px auto;
+    width: 5%;
+    border-color: #cde4e4d7;
+    border-width: 5px;
+    }
 h1{
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -26,6 +42,7 @@ h2{
     font-size: 2.5rem;
     color: #66bfbf;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
@@ -33,6 +50,52 @@ h3{
 }
 p{
     font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;}
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.bottom-container{
+  background-color: #66bfbf;
+  text-align: center;
+  padding: 50px 0 20px; 
+
+}
+.contact-me{
+    margin:40px auto 60px;
+    width: 40%;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0px 10px 0;
+}
+.intro{
+    width:30%;
+    margin: auto;
+    
 }
 .skill-row{
     width: 50%;
@@ -50,9 +113,12 @@ p{
     float: right;
     margin-left: 30px;
 }
+.pro-pic{
+    margin-top: 70px;
+}
 .top-cloud{
     position: absolute;
-    left: 900px;
+    left: 1100px;
     top: 50px;
 }
 .bottom-cloud{
